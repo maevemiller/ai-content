@@ -1,0 +1,9 @@
+state/
+concepts.md
+twitter_inbox.md
+twitter_inbox_archive.md
+*.log
+*.err.log
+__pycache__/
+*.pyc
+.DS_Store

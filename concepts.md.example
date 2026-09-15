@@ -1,0 +1,35 @@
+# AI Concept Queue
+
+One concept per line under "Queued". `research_concept.sh` pulls the first
+queued line each morning, writes a script for it, then moves it to "Covered"
+with the date so it's never repeated.
+
+Copy this file to `concepts.md` to get started (gitignored since it's live,
+accumulating state, not code).
+
+## Queued
+
+- What's an AI agent?
+- What's an agent harness?
+- What's a context window?
+- What's RAG (retrieval-augmented generation)?
+- What's a system prompt?
+- What's fine-tuning, and how is it different from prompting?
+- What's MCP (Model Context Protocol)?
+- What's a token, and why do LLMs count them?
+- What's the difference between a base model and a chat/instruct model?
+- What's a hallucination, actually?
+- What's prompt injection?
+- What's temperature (as a model parameter)?
+- What's an embedding?
+- What's chain-of-thought / extended thinking?
+- What's a tool call / function calling?
+- What's a vector database, and why do agents use one?
+- What's multi-agent orchestration?
+- What's a system vs. a model — why "the model" isn't the whole product?
+- What's reinforcement learning from human feedback (RLHF)?
+- What's a context-window "compaction" or summarization step?
+
+## Covered
+
+<!-- research_concept.sh appends "- <topic> (covered YYYY-MM-DD)" here -->
